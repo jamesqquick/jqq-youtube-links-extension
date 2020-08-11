@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    border-radius: 10px;
+}
+.container {
+    padding: 1rem 0.5rem;
+    height: 400px;
+    width: 400px;
+}
+
+#linksList {
+    padding-left: 0;
+}
+
+.video-link {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px 0;
+    color: #333;
+}
+
+.video-link > a:visited,
+.video-link > a {
+    color: #333;
+    text-decoration: none;
+}
+
+.btn {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #eee;
+    font-size: 12px;
+    box-shadow: 1px 1px 5px #ccc;
+    transition: 100ms;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 2px 2px 5px #ccc;
+}
